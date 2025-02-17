@@ -29,14 +29,14 @@ def fillCorner(alice, corner):
         alice.begin_fill()
         drawSquare(alice, 50)
         alice.end_fill()
-    elif corner == 3:
+    elif corner == 4:
         alice.forward(100)
         alice.right(90)
         alice.forward(50)
         alice.begin_fill()
         drawSquare(alice, 50)
         alice.end_fill()
-    elif corner == 4:
+    elif corner == 3:
         alice.forward(100)
         alice.right(90)
         alice.forward(100)
